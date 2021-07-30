@@ -1,0 +1,124 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+body {
+    //max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+
+}
+
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+.app-header {
+	background-color: #068616;
+	min-height: 8vh;
+	display: flex;
+	/*flex-direction: column;*/
+	align-items: center;
+	justify-content: right;
+	font-size: calc(5px + 2vmin);
+	font-weight: bold;
+	color: white;
+	//position: fixed; 
+	width: 100%;
+	margin: 0px !important;
+  }
+  a{
+	  color:white;
+  }
+input{
+  height: 2.5rem;
+    border: none;
+    width: 18rem;
+}
+
+.navbar{
+width: 75%;
+}
+
+header >img{
+	width: 40px;
+    margin: 5px;
+}
+
+  .card{
+	  margin: 10px;
+  }
+  
+  .app-footer {
+	bottom:0;
+	width:100%;
+	min-height: 5vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: calc(1px + 2vmin);
+	font-weight: bold;
+	background:#000000;
+	margin: 0px !important;
+	position: fixed; 
+  }
+  
+  .image-gallery-div{
+	height: 5vw;
+
+  }
+ 
+.row-container{
+width: 100%;
+margin: 0px  !important;
+padding: 0px !important;
+
+}
+
+.pd10{
+	padding: 10px;
+}
+
+
+  .card-line{
+	border: 1px solid #ECECFF;
+
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.flex-container{
+	width: 100%;
+}
+
+.pd0{
+	padding: 0px;
+}
+
+@media screen and (min-width: 47.5em ) {
+	.leftColumn { margin-right: 19.5em; }
+	  .rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }   
+  }
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	body {
+		//max-width: 100%;
+		overflow-x: scroll;
+		overflow-y: scroll;
+	
+	}
+
+}
